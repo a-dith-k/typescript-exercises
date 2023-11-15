@@ -1,0 +1,11 @@
+{
+  "name": "typescript-demo",
+  "version": "1.0.0",
+  "dependencies": {
+    "node": "^21.1.0",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/prompt-sync": "^4.2.3"
+  }
+}
