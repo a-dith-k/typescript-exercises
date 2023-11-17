@@ -1,12 +1,13 @@
 "use strict";
-// import promptSync from 'prompt-sync';
-//
-// const prompt
-//     = promptSync();
-// let c:string
-//     =prompt("Enter a Character");
-// console
-//     .log(`The character you entered is ${c}`)
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const prompt_sync_1 = __importDefault(require("prompt-sync"));
+const prompt = (0, prompt_sync_1.default)();
+let c = prompt("Enter a Character");
+console
+    .log(`The character you entered is ${c}`);
 greet("Adith", new Date());
 function greet(person, date) {
     console.log(`Hello ${person} today is ${date.toDateString()}`);
